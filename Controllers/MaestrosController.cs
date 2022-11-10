@@ -15,7 +15,7 @@ namespace Back_End_BD.Controllers
         {
             using (AlumnoDbContext dbMaestros = new AlumnoDbContext())
             {
-                //select * from alumnos;
+                
 
                 return View(dbMaestros.Maestros.ToList());
             }
